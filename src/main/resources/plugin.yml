@@ -1,0 +1,7 @@
+name: Tannery
+version: ${project.version}
+main: gportals.tannery.Main
+api-version: 1.13
+depend: [NBTAPI]
+authors: [gapidobri]
+prefix: Tannery
