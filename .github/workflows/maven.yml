@@ -16,4 +16,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Build artifacts
-      run: clean package
+      run: mvn clean package
