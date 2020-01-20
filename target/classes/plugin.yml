@@ -1,7 +1,0 @@
-name: Tannery
-version: 1.0-SNAPSHOT
-main: gportals.tannery.Main
-api-version: 1.13
-depend: [NBTAPI]
-authors: [gapidobri]
-prefix: Tannery

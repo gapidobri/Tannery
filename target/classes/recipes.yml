@@ -1,8 +1,0 @@
-bloodhide:
-  name: 'BloodHide'
-  item: rotten_flesh
-  dry-time: 10
-  color: red
-  ingredients:
-    - redstone_wire
-    - slime_ball
