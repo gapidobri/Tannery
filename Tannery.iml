@@ -37,7 +37,6 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.ow2.asm:asm-tree:7.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.ow2.asm:asm-analysis:7.1" level="project" />
     <orderEntry type="library" name="Maven: de.tr7zw:item-nbt-api-plugin:2.2.0" level="project" />
-    <orderEntry type="library" name="Maven: de.tr7zw:item-nbt-api:2.2.0" level="project" />
     <orderEntry type="library" name="Maven: de.tr7zw:nbt-injector:2.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.26.0-GA" level="project" />
   </component>

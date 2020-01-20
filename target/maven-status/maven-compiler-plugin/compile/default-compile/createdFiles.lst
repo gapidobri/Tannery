@@ -1,8 +1,10 @@
-gportals\tannery\craft\ItemCraft.class
 gportals\tannery\StaticMethods.class
-gportals\tannery\station\ItemHang.class
 gportals\tannery\craft\PreventPickup.class
-gportals\tannery\Config.class
-gportals\tannery\recipe\Hide.class
+gportals\tannery\Listeners.class
 gportals\tannery\Main.class
+gportals\tannery\craft\ItemCraft.class
+gportals\tannery\station\ItemHang.class
+gportals\tannery\Config.class
+gportals\tannery\station\ItemGet.class
+gportals\tannery\recipe\Hide.class
 gportals\tannery\station\Station.class
