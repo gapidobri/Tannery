@@ -15,5 +15,7 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - name: Build artifacts
-      run: mvn clean package
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v1
+      with:
+        path: target
