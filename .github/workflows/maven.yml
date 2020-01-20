@@ -14,8 +14,9 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B package --file pom.xml -Djar.finalName=tannery-latest
     - name: Upload artifacts
       uses: actions/upload-artifact@v1
       with:
+        name: tannery-latest.jar
         path: target
