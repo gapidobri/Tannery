@@ -1,4 +1,4 @@
-package gportals.tannery.craft;
+package gportals.tannery.craft.cauldron;
 
 import gportals.tannery.recipe.Hide;
 import org.bukkit.Sound;

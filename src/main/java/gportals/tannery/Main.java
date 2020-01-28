@@ -5,6 +5,8 @@ import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import static gportals.tannery.craft.bench.Recipes.addCraftingRecipes;
+
 public final class Main extends JavaPlugin {
 
     public static final Material CRAFT_BLOCK = Material.CAULDRON;
@@ -15,6 +17,8 @@ public final class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         main = this;
+
+        addCraftingRecipes();
 
         saveResource("recipes.yml", false);
         saveResource("stations", false);

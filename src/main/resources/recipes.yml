@@ -1,3 +1,15 @@
+#Get color names from
+
+# hide:
+#   name: 'Hide'
+#   item: leather
+#   dry-time: 5
+#   color: red -> https://papermc.io/javadocs/paper/1.13/org/bukkit/Color.html
+#   ingredients: -> https://papermc.io/javadocs/paper/1.13/org/bukkit/Material.html
+#     - redstone_wire
+#     - slime_ball
+
+
 bloodhide:
   name: 'BloodHide'
   item: rotten_flesh
@@ -6,3 +18,11 @@ bloodhide:
   ingredients:
     - redstone_wire
     - slime_ball
+  crafting:
+    helmet:
+      enchantments:
+        - unbreaking: 7
+    chestplate:
+    leggings:
+    boots:
+    horse-armor:

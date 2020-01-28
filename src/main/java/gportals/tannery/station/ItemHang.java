@@ -25,8 +25,10 @@ public class ItemHang {
 
         NBTItem nbtItem = new NBTItem(e.getItem());
 
-        if (nbtItem.getInteger("dryTime") <= 0 || !getStation(e.getClickedBlock()).isEmpty()) {
-            return;
+        if (getStation(e.getClickedBlock()) != null) {
+            if (nbtItem.getInteger("dryTime") <= 0 || !getStation(e.getClickedBlock()).isEmpty()) {
+                return;
+            }
         }
 
         //Check if item is a hide

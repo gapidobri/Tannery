@@ -2,34 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af4ee035-3bc6-49a4-9df7-6ce436cafa59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/Listeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/ItemGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/stations" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_tr7zw_item_nbt_api_2_2_0.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_tr7zw_item_nbt_api_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/bench/Recipes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/ItemDryCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_13_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_13_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tannery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tannery.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/Listeners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/StaticMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/StaticMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/ItemCraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/ItemCraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/PreventPickup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/PreventPickup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/ItemCraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/cauldron/ItemCraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/PreventPickup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/cauldron/PreventPickup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/recipe/Hide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/recipe/Hide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/ItemGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/ItemGet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/ItemHang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/ItemHang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/Station.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gportals/tannery/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gportals/tannery/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gportals/tannery/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gportals/tannery/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gportals/tannery/StaticMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gportals/tannery/StaticMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gportals/tannery/craft/ItemCraft.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gportals/tannery/craft/ItemCraft.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gportals/tannery/craft/PreventPickup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gportals/tannery/craft/PreventPickup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gportals/tannery/recipe/Hide.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gportals/tannery/recipe/Hide.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gportals/tannery/station/ItemHang.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gportals/tannery/station/ItemHang.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gportals/tannery/station/Station.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gportals/tannery/station/Station.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-tannery-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-tannery-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tannery-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/tannery-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -72,10 +63,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.1150748" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
     <configuration name="Tannery build" type="MavenRunConfiguration" factoryName="Maven">
@@ -139,18 +131,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1578944364595" />
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579558955233">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579561121036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579558955233" />
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579561121036" />
     <state x="702" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579440279391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="702" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579440279391" />
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1579453852881">
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1580029776796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579453852881" />
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580029776796" />
     <state x="756" y="380" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579534003621">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -159,30 +151,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579426247859" />
-    <state x="614" y="115" key="CommitChangelistDialog2" timestamp="1579431729730">
+    <state x="614" y="115" key="CommitChangelistDialog2" timestamp="1580241766817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579431729730" />
+    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580241766817" />
     <state x="739" y="262" key="FileChooserDialogImpl" timestamp="1579554194573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579554194573" />
-    <state width="1877" height="313" key="GridCell.Tab.0.bottom" timestamp="1579559108795">
+    <state width="1877" height="138" key="GridCell.Tab.0.bottom" timestamp="1580241766883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579559108795" />
-    <state width="1877" height="313" key="GridCell.Tab.0.center" timestamp="1579559108795">
+    <state width="1877" height="138" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580241766883" />
+    <state width="1877" height="138" key="GridCell.Tab.0.center" timestamp="1580241766882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579559108795" />
-    <state width="1877" height="313" key="GridCell.Tab.0.left" timestamp="1579559108795">
+    <state width="1877" height="138" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580241766882" />
+    <state width="1877" height="138" key="GridCell.Tab.0.left" timestamp="1580241766882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579559108795" />
-    <state width="1877" height="313" key="GridCell.Tab.0.right" timestamp="1579559108795">
+    <state width="1877" height="138" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580241766882" />
+    <state width="1877" height="138" key="GridCell.Tab.0.right" timestamp="1580241766883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579559108795" />
+    <state width="1877" height="138" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580241766883" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579534911291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,10 +191,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579534911291" />
-    <state x="440" y="95" key="SettingsEditor" timestamp="1579556659164">
+    <state x="440" y="95" key="SettingsEditor" timestamp="1579983812735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579556659164" />
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579983812735" />
     <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579427617401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

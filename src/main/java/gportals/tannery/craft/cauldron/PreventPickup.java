@@ -1,4 +1,4 @@
-package gportals.tannery.craft;
+package gportals.tannery.craft.cauldron;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.entity.EntityPickupItemEvent;
