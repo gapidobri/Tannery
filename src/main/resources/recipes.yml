@@ -1,28 +1,40 @@
-#Get color names from
 
-# hide:
-#   name: 'Hide'
-#   item: leather
-#   dry-time: 5
-#   color: red -> https://papermc.io/javadocs/paper/1.13/org/bukkit/Color.html
-#   ingredients: -> https://papermc.io/javadocs/paper/1.13/org/bukkit/Material.html
-#     - redstone_wire
-#     - slime_ball
-
+#    hide:
+#        name: 'Hide' -> Colored text: https://dev.bukkit.org/projects/color-chat
+#        item: rotten_flesh -> https://papermc.io/javadocs/paper/1.13/org/bukkit/Material.html
+#        color: red -> https://papermc.io/javadocs/paper/1.13/org/bukkit/Color.html
+#        dry-time: 5 -> seconds
+#        ingredients: -> https://papermc.io/javadocs/paper/1.13/org/bukkit/Material.html
+#            - redstone
+#            - slime_ball
+#        crafting:
+#            helmet:
+#                enabled: true
+#                enchantments: -> https://minecraft.gamepedia.com/Enchanting
+#                    protection: 1 -> lowercase_with_underscores: level
+#            chestplate:
+#                enabled: false
+#            leggings:
+#                enabled: false
+#            boots:
+#                enabled: false
 
 bloodhide:
-  name: 'BloodHide'
+  name: '&cBlood Hide'
   item: rotten_flesh
-  dry-time: 10
   color: red
+  dry-time: 5
   ingredients:
-    - redstone_wire
+    - redstone
     - slime_ball
   crafting:
     helmet:
+      enabled: true
       enchantments:
-        - unbreaking: 7
+        protection: 1
     chestplate:
+      enabled: false
     leggings:
+      enabled: false
     boots:
-    horse-armor:
+      enabled: false

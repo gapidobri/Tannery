@@ -10,9 +10,9 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.EquipmentSlot;
 
 import static gportals.tannery.Config.*;
-import static gportals.tannery.Main.CRAFT_BLOCK;
 import static gportals.tannery.StaticMethods.removeItem;
 import static gportals.tannery.StaticMethods.yawToFace;
+import static gportals.tannery.Tannery.CRAFT_BLOCK;
 
 public class ItemHang {
 
@@ -20,8 +20,8 @@ public class ItemHang {
 
         if (e.getClickedBlock() == null || e.getItem() == null) return;
 
-        if (!e.getClickedBlock().getType().equals(CRAFT_BLOCK) ||
-                !e.getHand().equals(EquipmentSlot.HAND)) return;
+        if (!e.getClickedBlock().getType().equals(CRAFT_BLOCK)
+                || !e.getHand().equals(EquipmentSlot.HAND)) return;
 
         NBTItem nbtItem = new NBTItem(e.getItem());
 
@@ -31,13 +31,13 @@ public class ItemHang {
             }
         }
 
-        //Check if item is a hide
+        // Check if item is a hide
         for (Hide hide : getRecipes()) {
 
             if (hide.getId().equals(nbtItem.getString("id"))) {
                 e.setCancelled(true);
 
-                //Places banner
+                // Places banner
                 Block bannerBlock = e.getClickedBlock().getLocation().add(0, 1, 0).getBlock();
                 bannerBlock.setType(Material.BROWN_BANNER);
 
@@ -48,11 +48,15 @@ public class ItemHang {
                     bannerBlock.setBlockData(bannerRot);
                 }
 
-                setStation(new Station(e.getClickedBlock().getLocation(), false, hide, System.currentTimeMillis(), nbtItem.getInteger("dryTime")));
+                setStation(
+                        new Station(
+                                e.getClickedBlock().getLocation(),
+                                false,
+                                hide,
+                                System.currentTimeMillis(),
+                                nbtItem.getInteger("dryTime")));
                 removeItem(e.getPlayer(), e.getItem(), 1);
             }
-
         }
-
     }
 }

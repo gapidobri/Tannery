@@ -2,23 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af4ee035-3bc6-49a4-9df7-6ce436cafa59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_tr7zw_item_nbt_api_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/bench/Recipes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/ItemDryCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_13_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_13_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/Tannery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tannery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tannery.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/Listeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/StaticMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/StaticMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/ItemCraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/cauldron/ItemCraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/PreventPickup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/cauldron/PreventPickup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/bench/Recipes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/bench/Recipes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/cauldron/ItemCraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/cauldron/ItemCraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/cauldron/PreventPickup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/craft/cauldron/PreventPickup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/recipe/Hide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/recipe/Hide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/ItemDryCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/ItemDryCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/ItemGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/ItemGet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/ItemHang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/ItemHang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gportals/tannery/station/Station.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +62,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CustomDrops" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.1150748" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunManager">
     <configuration name="Tannery build" type="MavenRunConfiguration" factoryName="Maven">
@@ -120,7 +119,28 @@
       <option name="presentableId" value="Default" />
       <updated>1578940600239</updated>
     </task>
+    <task id="LOCAL−00001" summary="Core finished">
+      <created>1580241792873</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1580241792873</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Core finished">
+      <created>1580241881315</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1580241881315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Core finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Core finished" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Inspections" timestamp="1579389767673">
@@ -147,34 +167,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="380" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1579534003621" />
+    <state x="641" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580397691094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="641" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580397691094" />
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579426247859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579426247859" />
-    <state x="614" y="115" key="CommitChangelistDialog2" timestamp="1580241850193">
+    <state x="614" y="115" key="CommitChangelistDialog2" timestamp="1580241880641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580241850193" />
-    <state x="739" y="262" key="FileChooserDialogImpl" timestamp="1579554194573">
+    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580241880641" />
+    <state x="739" y="262" key="FileChooserDialogImpl" timestamp="1580396525564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579554194573" />
-    <state width="1877" height="138" key="GridCell.Tab.0.bottom" timestamp="1580241766883">
+    <state x="739" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580396525564" />
+    <state width="1877" height="138" key="GridCell.Tab.0.bottom" timestamp="1580397713827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580241766883" />
-    <state width="1877" height="138" key="GridCell.Tab.0.center" timestamp="1580241766882">
+    <state width="1877" height="138" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580397713827" />
+    <state width="1877" height="138" key="GridCell.Tab.0.center" timestamp="1580397713827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580241766882" />
-    <state width="1877" height="138" key="GridCell.Tab.0.left" timestamp="1580241766882">
+    <state width="1877" height="138" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580397713827" />
+    <state width="1877" height="138" key="GridCell.Tab.0.left" timestamp="1580397713827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580241766882" />
-    <state width="1877" height="138" key="GridCell.Tab.0.right" timestamp="1580241766883">
+    <state width="1877" height="138" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580397713827" />
+    <state width="1877" height="138" key="GridCell.Tab.0.right" timestamp="1580397713827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580241766883" />
+    <state width="1877" height="138" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580397713827" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579534911291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -191,18 +215,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579534911291" />
-    <state x="440" y="95" key="SettingsEditor" timestamp="1579983812735">
+    <state x="440" y="95" key="SettingsEditor" timestamp="1580314643194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579983812735" />
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580314643194" />
     <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579427617401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1579427617401" />
-    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579455876521">
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580574185108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579455876521" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580574185108" />
     <state x="731" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579375507700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

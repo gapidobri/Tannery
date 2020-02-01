@@ -52,10 +52,8 @@ public class Station {
 
     public int getDryTime() {
         long longTime = dryTime - ((System.currentTimeMillis() - getHangTime()) / 1000);
-        if (longTime < 0)
-            dryTime = 0;
-        else
-            dryTime = (int) longTime;
+        if (longTime < 0) dryTime = 0;
+        else dryTime = (int) longTime;
 
         return dryTime;
     }

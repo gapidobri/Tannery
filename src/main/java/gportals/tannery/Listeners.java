@@ -19,7 +19,6 @@ public class Listeners implements Listener {
         itemCraftEvent(event);
         itemHangEvent(event);
         itemDryCheckEvent(event);
-
     }
 
     @EventHandler
@@ -31,5 +30,4 @@ public class Listeners implements Listener {
     public void onBlockBreak(BlockBreakEvent event) {
         itemGetEvent(event);
     }
-
 }

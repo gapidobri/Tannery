@@ -9,7 +9,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class Hide {
 
@@ -25,7 +24,17 @@ public class Hide {
     boolean leggings;
     boolean boots;
 
-    public Hide(String id, String name, ItemStack item, Color color, int dryTime, ArrayList<ItemStack> ingredients, boolean helmet, boolean chestplate, boolean leggings, boolean boots) {
+    public Hide(
+            String id,
+            String name,
+            ItemStack item,
+            Color color,
+            int dryTime,
+            ArrayList<ItemStack> ingredients,
+            boolean helmet,
+            boolean chestplate,
+            boolean leggings,
+            boolean boots) {
         this.id = id;
         this.name = name;
         this.item = item;
@@ -47,7 +56,8 @@ public class Hide {
             itemMeta.setDisplayName(ChatColor.AQUA + "Wet " + ChatColor.RESET + getName());
             itemMeta.addEnchant(Enchantment.ARROW_INFINITE, 1, true);
             itemMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
-            itemMeta.setLore(Collections.singletonList(ChatColor.GOLD + "Seconds to dryness: " + getDryTime()));
+            // itemMeta.setLore(Collections.singletonList(ChatColor.GOLD + "Seconds to dryness: " +
+            // getDryTime())); //Shows time to dry in the item lore
         }
         item.setItemMeta(itemMeta);
 
@@ -63,7 +73,6 @@ public class Hide {
         Hide finalHide = this;
         finalHide.setDryTime(0);
         return finalHide.giveItem();
-
     }
 
     public String getId() {

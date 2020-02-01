@@ -3,7 +3,7 @@ package gportals.tannery.craft.cauldron;
 import org.bukkit.entity.Player;
 import org.bukkit.event.entity.EntityPickupItemEvent;
 
-import static gportals.tannery.Main.CRAFT_BLOCK;
+import static gportals.tannery.Tannery.CRAFT_BLOCK;
 
 public class PreventPickup {
 
@@ -11,8 +11,6 @@ public class PreventPickup {
         if (!(e.getEntity() instanceof Player)) return;
         Player player = (Player) e.getEntity();
 
-        if (player.getTargetBlock(5).getType().equals(CRAFT_BLOCK))
-            e.setCancelled(true);
+        if (player.getTargetBlock(5).getType().equals(CRAFT_BLOCK)) e.setCancelled(true);
     }
-
 }

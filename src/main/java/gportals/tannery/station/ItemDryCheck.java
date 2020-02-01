@@ -5,7 +5,7 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.EquipmentSlot;
 
 import static gportals.tannery.Config.getStation;
-import static gportals.tannery.Main.CRAFT_BLOCK;
+import static gportals.tannery.Tannery.CRAFT_BLOCK;
 
 public class ItemDryCheck {
 
@@ -13,12 +13,11 @@ public class ItemDryCheck {
 
         Station station = getStation(e.getClickedBlock());
 
-        if (e.getClickedBlock() == null ||
-                !e.getHand().equals(EquipmentSlot.HAND) ||
-                !e.getClickedBlock().getType().equals(CRAFT_BLOCK) ||
-                !e.getMaterial().equals(Material.CLOCK) ||
-                station.isEmpty())
-            return;
+        if (e.getClickedBlock() == null
+                || !e.getHand().equals(EquipmentSlot.HAND)
+                || !e.getClickedBlock().getType().equals(CRAFT_BLOCK)
+                || !e.getMaterial().equals(Material.CLOCK)
+                || station.isEmpty()) return;
 
         int dryTime = station.getDryTime();
         if (dryTime == 0) {
@@ -26,8 +25,5 @@ public class ItemDryCheck {
         } else {
             e.getPlayer().sendMessage(station.getDryTime() + " seconds to dryness");
         }
-
-
     }
-
 }
